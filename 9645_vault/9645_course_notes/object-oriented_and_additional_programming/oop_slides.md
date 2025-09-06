@@ -357,10 +357,10 @@ Discuss the data design decisions that have been made in this system.
 
 * **+** denotes a public attribute
 * **-** denotes a private attribute
-* \**#** denotes a public method
+* **#** denotes a public attribute
 * -▷ a hollow triangular arrowhead denotes **inheritance**
 * --- a line with no arrowhead between classes denotes **association**
-* -◇ a hollow a diamond arrowhead denotes **aggregation**
+* -◇ a hollow diamond arrowhead denotes **aggregation**
 * -◆ an opaque diamond arrowhead denotes **composition**
 * The x...y syntax denotes **cardinality** - how many instances of some object associate with how many instances of another object.
 
