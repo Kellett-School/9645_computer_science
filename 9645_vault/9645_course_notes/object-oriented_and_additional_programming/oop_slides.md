@@ -344,6 +344,7 @@ class Dog(Animal):
 		self._move_towards(owner.x, owner.y)
 ```
 
+---
 
 # CRD Example
 
@@ -357,7 +358,7 @@ Discuss the data design decisions that have been made in this system.
 
 * **+** denotes a public attribute
 * **-** denotes a private attribute
-* **#** denotes a public attribute
+* **#** denotes a protected attribute
 * -▷ a hollow triangular arrowhead denotes **inheritance**
 * --- a line with no arrowhead between classes denotes **association**
 * -◇ a hollow diamond arrowhead denotes **aggregation**
