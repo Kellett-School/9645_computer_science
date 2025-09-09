@@ -76,14 +76,14 @@ git commit -m "made my first note"
 git push
 ```
 
-## Updating from the master repo
+## Fetching and Merging from the master repo (upstream)
 
 Another thing that you will be told to do is update your repository by downloading updates from the origin repository - this will allow your teachers to distribute work to you.
 
-To set this up to always merge the changes from the upstream server, run this command:
+To set this up to avoid deleting your changes to the repo from the upstream server, run this command:
 
 ``` shell
-git config pull.rebase true
+git config pull.rebase false
 ```
 
 ### Adding an upstream
@@ -94,6 +94,45 @@ We need to ensure we can still access the course notes in case your teachers upd
 ``` shell
 git remote add upstream https://github.com/Kellett-School/9645_computer_science.git
 ```
+
+
+### Commit existing changes
+Don't forget to commit any changes you've made *Before* you fetch and merge in changes from the upstream
+``` shell
+git status
+# If there are uncommitted changes, commit them:
+git add .
+git commit -m "Commit local changes before fetch / merge"
+```
+
+### Fetch from the upstream
+Grab the latest version of the upstram diffs using this command:
+
+``` shell
+git fetch upstream
+```
+
+### Merge the differences between files
+To prioritise the upstream (teacher version) with any differences in files but preventing deletions of other files use the following command:
+
+``` shell
+git pull -X theirs upstream/main
+```
+
+Fix any merge conflicts marked with less than and greater than symbols.
+
+- Git will mark conflicting files with conflict markers (e.g., `<<<<<<<`, `=======`, `>>>>>>>`).
+- Open these files in your editor, review the conflicting sections, and manually adjust them to your desired state.
+- Remove the conflict markers.
+
+### Stage the merged changes to your repo and push
+
+``` shell
+git add .
+git commit -m "Merge upstream changes, prioritizing upstream in conflicts"
+git push origin main
+```
+
 
 ### Pulling a teacher's changes from the master repo
 Now, whenever you are prompted - run this command to download your teacher's new changes:
