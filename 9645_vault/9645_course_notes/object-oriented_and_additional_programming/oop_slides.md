@@ -363,5 +363,5 @@ Discuss the data design decisions that have been made in this system.
 * --- a line with no arrowhead between classes denotes **association**
 * -◇ a hollow diamond arrowhead denotes **aggregation**
 * -◆ an opaque diamond arrowhead denotes **composition**
-* The x...y syntax denotes **cardinality** - how many instances of some object associate with how many instances of another object.
+* The x...y syntax denotes **multiplicity** - how many instances of some object associate with how many instances of another object.
 
