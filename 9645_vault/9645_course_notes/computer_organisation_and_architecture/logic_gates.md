@@ -4,6 +4,7 @@ Logic gates are used to evaluate logical operations between one or two operands,
 
 ### Symbol
 [link to image](https://www.basictables.com/media/and-gate-icon.png)
+![[Excalidraw/logic_circuit_examples.md#^group=zzZdBldyygUmmkkG7dWEc|AND]]
 ### Notation
 ∧ or ·
 ### Truth Table
@@ -19,6 +20,7 @@ Logic gates are used to evaluate logical operations between one or two operands,
 
 ### Symbol
 [link to image](https://www.basictables.com/media/or-gate-icon.png)
+![[Excalidraw/logic_circuit_examples.md#^group=u4lnJcZf8QNRyptFckgad|OR]]
 ### Notation
 ∨ or +
 ### Truth Table
@@ -34,6 +36,7 @@ Logic gates are used to evaluate logical operations between one or two operands,
 
 ### Symbol
 [link to image](https://www.basictables.com/media/not-gate-icon.png)
+![[Excalidraw/logic_circuit_examples.md#^group=8W4JLrM2kdZx-0yp-rkaN|NOT]]
 ### Notation
 ¬ or ‾
 ### Truth Table
@@ -46,6 +49,7 @@ Logic gates are used to evaluate logical operations between one or two operands,
 ## XOR
 ### Symbol
 [link to image](https://www.basictables.com/media/xor-gate-icon.png)
+![[Excalidraw/logic_circuit_examples.md#^group=YdyXYUMdq0tfAfyEq5wG8|XOR]]
 ### Notation
 ⊻ or ⊕
 ### Truth Table
@@ -60,6 +64,8 @@ Logic gates are used to evaluate logical operations between one or two operands,
 ## NAND
 ### Symbol
 [link to image](https://www.basictables.com/media/nand-gate-icon.png)
+![[Excalidraw/logic_circuit_examples.md#^group=vD5dEUraQcItFNUAZN6Wi|NAND]]
+
 ### Notation
 ⊼ or $X=\overline{A \cdot B}$
 ### Truth Table
@@ -74,6 +80,7 @@ Logic gates are used to evaluate logical operations between one or two operands,
 ## NOR
 ### Symbol
 [link to image](https://www.basictables.com/media/nor-gate-icon.png)
+![[Excalidraw/logic_circuit_examples.md#^group=qg2pr2nBaig0ESR9cxxFo|NOR]]
 ### Notation
 ⊽ or $X=\overline{A + B}$
 ### Truth Table
@@ -85,18 +92,6 @@ Logic gates are used to evaluate logical operations between one or two operands,
 | 1     | 0     | 0     |
 | 1     | 1     | 0     |
 
-## Logic Statements
-
-This is an example of a logic statement:
-$$X=\overline{A \cdot B} + B \cdot \overline A$$
-These require some inputs to be solved (find the value of X)
-for example if the inputs were:
-$$A=0, B=1$$
-then the answer would be:
-$$\displaylines{
-X = \overline {0 \cdot 1} + 1 \cdot \overline 0 \\
-X = \overline 0 + 1 \cdot 1 \\
-X = 1 + 1 \\
-X = 1
-}$$
-This process of simplification is called [[boolean_algebra|boolean algebra]]
+## Also see:
+[[logic_circuits]]
+[[logic_statements]]
