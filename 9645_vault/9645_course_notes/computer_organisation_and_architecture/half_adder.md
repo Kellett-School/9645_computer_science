@@ -8,13 +8,13 @@ Two half adders can be combined to make a [[full_adder]]
 
 ## Abstract Representation
 The internal configuration of the Half Adder can be [[abstraction|abstracted]] meaning that we do not see it's internals, instead we can represent it as a box labeled as **HA** standing for **Half Adder**
-
+![[Excalidraw/logic_circuit_examples.md#^group=GuwwqFP4CX5z4k10NsI3O|half_adder_abstract]]
 ## Truth Table
 
-| A   | B   | S   | C   |
-| --- | --- | --- | --- |
-| 0   | 0   | 0   | 0   |
-| 0   | 1   | 1   | 0   |
-| 1   | 0   | 1   | 0   |
-| 1   | 1   | 0   | 1   |
-
+| **A** | **B** | **C** | **S** |
+| :---: | :---: | :---: | :---: |
+|   0   |   0   |   0   |   0   |
+|   0   |   1   |   0   |   1   |
+|   1   |   0   |   0   |   1   |
+|   1   |   1   |   1   |   0   |
+As you can see S contains the **sum** of A and B, C contains the **remainder** or **carry** of the **sum** of A and B. Arranging the Truth Table in the order A,B,C,S shows the binary sum of columns A and B in columns C and S
