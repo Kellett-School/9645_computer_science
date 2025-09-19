@@ -30,10 +30,18 @@
         "color": "#7a8aff"
       },
       {
+        "rule": "computer_organisation_and_architecture/",
+        "icon": "LiCpu",
+        "for": "everything",
+        "order": 2,
+        "color": "#068c9d",
+        "useFilePath": true
+      },
+      {
         "rule": "9645_course_notes/",
         "icon": "LiBookDown",
         "for": "everything",
-        "order": 3,
+        "order": 4,
         "color": "#8c00ff",
         "useFilePath": true
       }
