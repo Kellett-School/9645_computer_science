@@ -8,8 +8,8 @@ The D Type also extends the **Enable** line by commonly adding a [[rising_edge_p
 ![[Excalidraw/logic_circuit_examples.md#^group=zu8osHV3BQAEexwjD6fOC|d_type_flip_flop]]
 ## Truth Table
 
-| E (CLK) | $D$ | $Q_{n+1}$ | $\overline Q_{n+1}$ |
-| :-----: | :-: | :-------: | :-----------------: |
-|  1 (▲)  |  0  |     0     |          1          |
-|  1 (▲)  |  1  |     1     |          0          |
-|    0    |  ?  |   $Q_n$   |   $\overline Q_n$   |
+| E (CLK) | $D$ | $Q_{n+1}$ | $\overline Q_{n+1}$ |       State       |
+| :-----: | :-: | :-------: | :-----------------: | :---------------: |
+|  1 (▲)  |  0  |     0     |          1          |       Reset       |
+|  1 (▲)  |  1  |     1     |          0          |        Set        |
+|    0    |  ?  |   $Q_n$   |   $\overline Q_n$   | Store (No Change) |

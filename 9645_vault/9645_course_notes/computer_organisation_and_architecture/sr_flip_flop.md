@@ -8,12 +8,12 @@ The SR flip flop is a very simple way to arrange logic gates to create a simple 
 ### SR Latch (NAND version) (Active Low)
 ![[Excalidraw/logic_circuit_examples.md#^group=4-wbYttAFxTg9Q3H7GKI4|sr_latch_nand]]
 
-| $\overline S$ | $\overline R$ | $Q_{n+1}$ | $\overline Q_{n+1}$ |     State     |
-| :-----------: | :-----------: | :-------: | :-----------------: | :-----------: |
-|       0       |       0       |     ?     |          ?          | Indeterminate |
-|       0       |       1       |     1     |          0          |      Set      |
-|       1       |       0       |     0     |          1          |     Reset     |
-|       1       |       1       |   $Q_n$   |   $\overline Q_n$   |     Store     |
+| $\overline S$ | $\overline R$ | $Q_{n+1}$ | $\overline Q_{n+1}$ |       State       |     |
+| :-----------: | :-----------: | :-------: | :-----------------: | :---------------: | --- |
+|       0       |       0       |     ?     |          ?          |   Indeterminate   |     |
+|       0       |       1       |     1     |          0          |        Set        |     |
+|       1       |       0       |     0     |          1          |       Reset       |     |
+|       1       |       1       |   $Q_n$   |   $\overline Q_n$   | Store (No Change) |     |
 ### SR (RS) Latch (NOR version) (Active High)
 ![[Excalidraw/logic_circuit_examples.md#^group=71XLrao8CQdaU-9rzZwSO|sr_latch_nor]]
 

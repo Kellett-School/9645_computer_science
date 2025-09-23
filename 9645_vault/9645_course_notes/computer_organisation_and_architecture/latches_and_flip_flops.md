@@ -14,7 +14,7 @@ N.B. *See this effect in the Truth Tables below*
 ## Rising edge and Falling Edge
 You may see the term Rising Edge or Falling Edge when talking about flipflops or latches, these terms stand for:
 **Rising Edge**: A brief control voltage pulse sent when a signal goes from low to high
-**Rising Edge**: A brief control voltage pulse sent when a signal goes from High to Low
+**Falling Edge**: A brief control voltage pulse sent when a signal goes from High to Low
 
 For Rising Edges we use this symbol ▲
 For Falling Edges we use this symbol ▼

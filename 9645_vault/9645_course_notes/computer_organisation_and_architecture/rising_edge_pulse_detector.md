@@ -4,6 +4,7 @@ A Rising Edge Pulse is when a signal goes from low to high, the point at which t
 A rising edge is represented using the symbol ▲
 
 How do we send a brief pulse if we detect a rising edge for instance, it's actually really simple and is possible because it takes a small amount of time for a current to pass through several gates.
+
 ![[Excalidraw/logic_circuit_examples.md#^group=SjTee69y|rising_edge_detector]]
 
 ```wavedrom
