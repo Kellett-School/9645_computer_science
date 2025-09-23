@@ -21,13 +21,3 @@ For Falling Edges we use this symbol ▼
 
 #### Logic Circuit for Rising or falling edges. 
 #notinsyllabus
-How do we send a brief pulse if we detect a rising edge for instance, it's actually really simple and is possible because it takes a small amount of time for energy to pass through gates.
-![[Excalidraw/logic_circuit_examples.md#^group=SjTee69y|rising_edge_detector]]
-
-```wavedrom
-{ signal: [
-  { name:"In", fill:"white", wave:'l.h..l.....'},
-  { name:"Delayed In", fill:"white", wave:'h..l..h....'},
-  { name:"Out", fill:"white", wave:'l.hl.......'},
-], config: {hscale: 2, skin: 'narrow'} }
-```

@@ -1,5 +1,6 @@
 {
   "enabledCssSnippets": [
     "slide-styles"
-  ]
+  ],
+  "theme": "system"
 }
