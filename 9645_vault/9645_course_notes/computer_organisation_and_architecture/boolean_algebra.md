@@ -51,9 +51,9 @@ in both cases you **must show your working out** because this is where you gain 
 
 ### Examples:
 
-#### Question:
+#### Question 1:
 Simplify $X = \overline {A \cdot B + A} + B \cdot \overline A + A$
-#### Working out:
+#### Answer with working out:
 $$\displaylines{
 X = \overline {A \cdot B + A} + B \cdot \overline A + A\\
 X = \overline {A} + B \cdot \overline A + A\\
@@ -65,9 +65,9 @@ X = 1
 3. OR form of inverse applied
 
 
-#### Question:
+#### Question 2:
 Simplify $X = \overline A + B + B \cdot (A + \overline B)$
-#### Working out:
+#### Answer with working out:
 $$\displaylines{
 X = \overline A + B + B \cdot (A + \overline B)\\
 X = \overline A + B +  B \cdot A + B \cdot \overline B\\
@@ -80,3 +80,15 @@ X = \overline A + B \\
 3. And form of identity applied
 4. Or Form of Absorption applied
 
+#### Question 3:
+show that $\overline {A + B} + C =(\overline{(A + B) + A}) \cdot\overline B + C$
+#### Answer with working out:
+$$\displaylines{
+(\overline{(A + B) + A}) \cdot \overline B + C\\
+((\overline{A + B}) \cdot \overline A) \cdot \overline B + C\\
+\overline A \cdot \overline B + C\\
+\overline {A + B} + C\\
+}$$
+1. Or form of De Morgan's applied
+2. OR form of Absorption applied
+3. AND form of De Morgan's applied (backwards) 
