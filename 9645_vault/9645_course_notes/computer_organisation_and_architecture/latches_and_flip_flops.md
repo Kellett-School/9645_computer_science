@@ -20,4 +20,4 @@ For Rising Edges we use this symbol ▲
 For Falling Edges we use this symbol ▼
 
 #### Logic Circuit for Rising or falling edges. 
-#notinsyllabus
+[[rising_edge_pulse_detector]]
